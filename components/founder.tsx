@@ -53,12 +53,7 @@ export function Founder() {
               them the value of science and the principles of living free from
               religious, gender, political and caste bias.
             </p>
-            <p>
-              Now 84 years old, he continues to conduct women&apos;s awareness
-              camps, health programs, science exhibitions, youth camps,
-              environment awareness drives and a creche for the babies of
-              working women.
-            </p>
+           
           </div>
 
           <div className="mt-8 rounded-2xl border border-border bg-card p-6">

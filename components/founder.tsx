@@ -56,22 +56,7 @@ export function Founder() {
            
           </div>
 
-          <div className="mt-8 rounded-2xl border border-border bg-card p-6">
-            <h4 className="font-heading text-lg font-semibold text-foreground">
-              Six orphanages established across Odisha
-            </h4>
-            <ul className="mt-4 grid gap-2.5 sm:grid-cols-2">
-              {orphanages.map((name) => (
-                <li
-                  key={name}
-                  className="flex items-start gap-2.5 text-sm text-muted-foreground"
-                >
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                  {name}
-                </li>
-              ))}
-            </ul>
-          </div>
+         
         </div>
       </div>
     </section>

@@ -5,6 +5,8 @@ import { Founder } from "@/components/founder"
 import { About } from "@/components/about"
 import { Testimonials } from "@/components/testimonials"
 import { Donate } from "@/components/donate"
+import { Recognition } from "@/components/recognition"
+import { Team } from "@/components/team"
 import { SiteFooter } from "@/components/site-footer"
 
 export default function Page() {
@@ -17,6 +19,8 @@ export default function Page() {
       <About />
       <Testimonials />
       <Donate />
+      <Recognition />
+      <Team />
       <SiteFooter />
     </main>
   )

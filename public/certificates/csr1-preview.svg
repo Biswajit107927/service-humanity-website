@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#fefefe"/>
+  <rect x="8" y="8" width="384" height="284" rx="4" stroke="#0d6938" stroke-width="2" fill="none"/>
+  <rect x="14" y="14" width="372" height="272" rx="2" stroke="#c0a050" stroke-width="1" fill="none"/>
+  <circle cx="200" cy="55" r="22" fill="none" stroke="#0d6938" stroke-width="1.5"/>
+  <text x="200" y="50" text-anchor="middle" font-family="serif" font-size="7" fill="#0d6938">MINISTRY OF</text>
+  <text x="200" y="60" text-anchor="middle" font-family="serif" font-size="7" fill="#0d6938">CORPORATE</text>
+  <text x="200" y="70" text-anchor="middle" font-family="serif" font-size="7" fill="#0d6938">AFFAIRS</text>
+  <text x="200" y="95" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#0d6938">GOVERNMENT OF INDIA</text>
+  <text x="200" y="110" text-anchor="middle" font-family="serif" font-size="9" fill="#333">Ministry of Corporate Affairs</text>
+  <text x="200" y="135" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#0d6938">CSR-1 REGISTRATION</text>
+  <text x="200" y="152" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#555">Certificate of Registration under Companies Act, 2013</text>
+  <line x1="60" y1="165" x2="340" y2="165" stroke="#c0a050" stroke-width="0.5"/>
+  <text x="60" y="185" font-family="sans-serif" font-size="8" fill="#333">Entity Name: SERVICE TO HUMANITY FOUNDATION</text>
+  <text x="60" y="200" font-family="sans-serif" font-size="8" fill="#333">Registration Type: CSR-1 (Section 135)</text>
+  <text x="60" y="215" font-family="sans-serif" font-size="8" fill="#333">Eligible for: Corporate Social Responsibility Funds</text>
+  <text x="60" y="230" font-family="sans-serif" font-size="8" fill="#333">Activities: Education, Healthcare, Rural Development</text>
+  <text x="60" y="245" font-family="sans-serif" font-size="8" fill="#333">Year of Registration: 2021</text>
+  <text x="280" y="265" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#555">Registrar of Companies</text>
+  <text x="280" y="275" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#777">Ministry of Corporate Affairs</text>
+  <circle cx="100" cy="255" r="18" fill="none" stroke="#0d6938" stroke-width="1" opacity="0.4"/>
+  <text x="100" y="253" text-anchor="middle" font-family="sans-serif" font-size="5" fill="#0d6938" opacity="0.5">REGISTERED</text>
+  <text x="100" y="261" text-anchor="middle" font-family="sans-serif" font-size="5" fill="#0d6938" opacity="0.5">CSR-1</text>
+</svg>

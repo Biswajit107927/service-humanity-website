@@ -9,6 +9,8 @@ const navLinks = [
   { label: "About Us", href: "#about" },
   { label: "Our Work", href: "#work" },
   { label: "Stories", href: "#testimonials" },
+  { label: "Certificates", href: "#recognition" },
+  { label: "Our Team", href: "#team" },
 ]
 
 export function SiteHeader() {

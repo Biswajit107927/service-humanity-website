@@ -4,32 +4,32 @@ const teamMembers = [
   {
     name: "Anjan Dey",
     designation: "President",
-    image: "/placeholder-user.jpg",
+    image: "/profilepicture/anjan.jpeg",
   },
   {
     name: "Col.Bijayananda Patnaik",
     designation: "Vice President",
-    image: "/placeholder-user.jpg",
+    image: "/profilepicture/bijayananda.jpeg",
   },
   {
     name: "Pitambar Lenka",
     designation: "Secretary",
-    image: "/placeholder-user.jpg",
+    image: "/profilepicture/pitambar.jpeg",
   },
   {
     name: "Dillip Kumar Barik",
     designation: "Chief Functionary",
-    image: "/placeholder-user.jpg",
+    image: "/profilepicture/dillip.jpeg",
   },
   {
     name: "Narendra Gope",
     designation: "Treasure",
-    image: "/placeholder-user.jpg",
+    image: "/profilepicture/narendra.jpeg",
   },
   {
     name: "Hemanta Tandia",
     designation: "Superintendent",
-    image: "/placeholder-user.jpg",
+    image: "/profilepicture/hemanta.jpeg",
   }
 ]
 
@@ -50,25 +50,27 @@ export function Team() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {teamMembers.map((member) => (
             <div
               key={member.name}
-              className="group rounded-xl border border-border/60 bg-background p-6 text-center shadow-sm transition-all hover:border-primary/30 hover:shadow-md"
+              className="group overflow-hidden rounded-xl border border-border/60 bg-background shadow-sm transition-all hover:border-primary/30 hover:shadow-md"
             >
-              <div className="mx-auto mb-4 h-24 w-24 overflow-hidden rounded-full border-2 border-primary/20">
+              <div className="aspect-square w-full overflow-hidden">
                 <img
                   src={member.image}
                   alt={member.name}
                   className="h-full w-full object-cover transition-transform group-hover:scale-105"
                 />
               </div>
-              <h3 className="font-heading text-lg font-semibold text-foreground">
-                {member.name}
-              </h3>
-              <p className="mt-1 text-sm font-medium text-primary">
-                {member.designation}
-              </p>
+              <div className="p-4 text-center">
+                <h3 className="font-heading text-lg font-semibold text-foreground">
+                  {member.name}
+                </h3>
+                <p className="mt-1 text-sm font-medium text-primary">
+                  {member.designation}
+                </p>
+              </div>
             </div>
           ))}
         </div>

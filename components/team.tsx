@@ -5,6 +5,7 @@ const teamMembers = [
     name: "Anjan Dey",
     designation: "President",
     image: "/profilepicture/anjan.jpeg",
+    position: "object-top",
   },
   {
     name: "Col.Bijayananda Patnaik",
@@ -29,8 +30,9 @@ const teamMembers = [
   {
     name: "Hemanta Tandia",
     designation: "Superintendent",
+    position: "object-top",
     image: "/profilepicture/hemanta.jpeg",
-  }
+  },
 ]
 
 export function Team() {
@@ -56,11 +58,12 @@ export function Team() {
               key={member.name}
               className="group overflow-hidden rounded-xl border border-border/60 bg-background shadow-sm transition-all hover:border-primary/30 hover:shadow-md"
             >
-              <div className="aspect-square w-full overflow-hidden">
+              <div className="aspect-square w-full overflow-hidden bg-muted">
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="h-full w-full object-cover transition-transform group-hover:scale-105"
+                  loading="lazy"
+                  className={`h-full w-full object-cover ${member.position ?? "object-center"} transition-transform duration-300 group-hover:scale-105`}
                 />
               </div>
               <div className="p-4 text-center">

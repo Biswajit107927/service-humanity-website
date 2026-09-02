@@ -15,17 +15,17 @@ const teamMembers = [
   {
     name: "Pitambar Lenka",
     designation: "Secretary",
-    image: "/profilepicture/pitambar.jpeg",
+    image: "/profilepicture/pitamber.jpg",
   },
   {
     name: "Dillip Kumar Barik",
     designation: "Chief Functionary",
-    image: "/profilepicture/dillip.jpeg",
+    image: "/profilepicture/dilip.jpeg",
   },
   {
     name: "Narendra Gope",
     designation: "Treasure",
-    image: "/profilepicture/narendra.jpeg",
+    image: "/profilepicture/narendra.jpg",
   },
   {
     name: "Hemanta Tandia",

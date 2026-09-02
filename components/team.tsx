@@ -16,6 +16,7 @@ const teamMembers = [
     name: "Pitambar Lenka",
     designation: "Secretary",
     image: "/profilepicture/pitamber.jpg",
+    position: "object-top",
   },
   {
     name: "Dillip Kumar Barik",
@@ -26,6 +27,7 @@ const teamMembers = [
     name: "Narendra Gope",
     designation: "Treasure",
     image: "/profilepicture/narendra.jpg",
+    position: "object-top",
   },
   {
     name: "Hemanta Tandia",

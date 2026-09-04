@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Source_Sans_3, Fraunces } from 'next/font/google'
+import { AiChatWidget } from '@/components/ai-chat-widget'
 import './globals.css'
 
 const sourceSans = Source_Sans_3({
@@ -56,6 +57,7 @@ export default function RootLayout({
     >
       <body className="font-sans antialiased">
         {children}
+        <AiChatWidget />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

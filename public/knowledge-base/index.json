@@ -1,0 +1,483 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-04T06:52:26.781Z",
+  "chunks": [
+    {
+      "id": "01-about-foundation::who-we-are",
+      "file": "01-about-foundation.md",
+      "title": "About the Foundation",
+      "heading": "Who we are",
+      "text": "Service to Humanity Foundation is a registered charitable organisation based in Odisha, India. We nurture and educate orphaned and deprived children — building independent, honest and confident human beings.",
+      "tags": [
+        "about",
+        "history",
+        "mission",
+        "odisha",
+        "founder",
+        "established"
+      ]
+    },
+    {
+      "id": "01-about-foundation::our-founding",
+      "file": "01-about-foundation.md",
+      "title": "About the Foundation",
+      "heading": "Our founding",
+      "text": "The foundation was established on January 30, 1981 by Dr. Sashikanta Acharya (PhD, TU Berlin).",
+      "tags": [
+        "about",
+        "history",
+        "mission",
+        "odisha",
+        "founder",
+        "established"
+      ]
+    },
+    {
+      "id": "01-about-foundation::our-mission",
+      "file": "01-about-foundation.md",
+      "title": "About the Foundation",
+      "heading": "Our mission",
+      "text": "Our mission is to provide love, care, shelter, education and values to children who have lost their families or who come from very difficult circumstances.",
+      "tags": [
+        "about",
+        "history",
+        "mission",
+        "odisha",
+        "founder",
+        "established"
+      ]
+    },
+    {
+      "id": "01-about-foundation::what-we-believe",
+      "file": "01-about-foundation.md",
+      "title": "About the Foundation",
+      "heading": "What we believe",
+      "text": "Every child deserves a childhood, a safe home, an education and someone who believes in them. We work to build that foundation one child at a time.",
+      "tags": [
+        "about",
+        "history",
+        "mission",
+        "odisha",
+        "founder",
+        "established"
+      ]
+    },
+    {
+      "id": "01-about-foundation::where-we-work",
+      "file": "01-about-foundation.md",
+      "title": "About the Foundation",
+      "heading": "Where we work",
+      "text": "We are primarily active in the state of Odisha, India, where we operate 6 orphanages / children's homes and community-based education support programmes, currently caring for more than 50 children.",
+      "tags": [
+        "about",
+        "history",
+        "mission",
+        "odisha",
+        "founder",
+        "established"
+      ]
+    },
+    {
+      "id": "01-about-foundation::legal-status",
+      "file": "01-about-foundation.md",
+      "title": "About the Foundation",
+      "heading": "Legal status",
+      "text": "The organisation is registered under the Juvenile Justice (JJ) Act of 2000 and holds 80G tax-exempt status in India.",
+      "tags": [
+        "about",
+        "history",
+        "mission",
+        "odisha",
+        "founder",
+        "established"
+      ]
+    },
+    {
+      "id": "01-about-foundation::why-service-to-humanity",
+      "file": "01-about-foundation.md",
+      "title": "About the Foundation",
+      "heading": "Why \"Service to Humanity\"",
+      "text": "The name reflects the simple belief at the heart of the organisation: service to another human being is the most meaningful work there is.",
+      "tags": [
+        "about",
+        "history",
+        "mission",
+        "odisha",
+        "founder",
+        "established"
+      ]
+    },
+    {
+      "id": "02-whom-we-support::who-the-foundation-supports",
+      "file": "02-whom-we-support.md",
+      "title": "Children We Support",
+      "heading": "Who the foundation supports",
+      "text": "We support orphaned, abandoned and deprived children — boys and girls who, without intervention, would not have access to safe shelter, food, education or adult guidance.",
+      "tags": [
+        "children",
+        "orphan",
+        "deprived",
+        "admission"
+      ]
+    },
+    {
+      "id": "02-whom-we-support::how-children-come-to-us",
+      "file": "02-whom-we-support.md",
+      "title": "Children We Support",
+      "heading": "How children come to us",
+      "text": "Children reach us through local authorities, child welfare committees, schools, community members and partner organisations. We follow a careful intake process to make sure every child is placed in a safe and caring environment.",
+      "tags": [
+        "children",
+        "orphan",
+        "deprived",
+        "admission"
+      ]
+    },
+    {
+      "id": "02-whom-we-support::how-long-children-stay-with-us",
+      "file": "02-whom-we-support.md",
+      "title": "Children We Support",
+      "heading": "How long children stay with us",
+      "text": "Children live with us until they complete their education and are prepared to stand on their own. Our aim is to walk with each child from childhood to independence.",
+      "tags": [
+        "children",
+        "orphan",
+        "deprived",
+        "admission"
+      ]
+    },
+    {
+      "id": "02-whom-we-support::what-children-receive",
+      "file": "02-whom-we-support.md",
+      "title": "Children We Support",
+      "heading": "What children receive",
+      "text": "- Safe, clean, family-like accommodation - Nutritious food and healthcare - School enrolment, books, uniforms and tuition support - Extra classes and mentorship - Values, life skills and emotional support - Guidance for higher education and employment",
+      "tags": [
+        "children",
+        "orphan",
+        "deprived",
+        "admission"
+      ]
+    },
+    {
+      "id": "03-our-work-and-programs::children-s-home",
+      "file": "03-our-work-and-programs.md",
+      "title": "Our Work and Programmes",
+      "heading": "Children's home",
+      "text": "The heart of the work is a residential children's home where children live in a safe, caring environment with dedicated caregivers.",
+      "tags": [
+        "programs",
+        "education",
+        "shelter",
+        "care",
+        "work"
+      ]
+    },
+    {
+      "id": "03-our-work-and-programs::education",
+      "file": "03-our-work-and-programs.md",
+      "title": "Our Work and Programmes",
+      "heading": "Education",
+      "text": "Every child is enrolled in school. We provide uniforms, books, stationery, tuition fees, extra coaching and a quiet space to study.",
+      "tags": [
+        "programs",
+        "education",
+        "shelter",
+        "care",
+        "work"
+      ]
+    },
+    {
+      "id": "03-our-work-and-programs::healthcare",
+      "file": "03-our-work-and-programs.md",
+      "title": "Our Work and Programmes",
+      "heading": "Healthcare",
+      "text": "Children receive regular health check-ups and medical care when needed.",
+      "tags": [
+        "programs",
+        "education",
+        "shelter",
+        "care",
+        "work"
+      ]
+    },
+    {
+      "id": "03-our-work-and-programs::life-skills-and-values",
+      "file": "03-our-work-and-programs.md",
+      "title": "Our Work and Programmes",
+      "heading": "Life skills and values",
+      "text": "Beyond academics, we teach honesty, hard work, empathy and independence — the values that help children become confident adults.",
+      "tags": [
+        "programs",
+        "education",
+        "shelter",
+        "care",
+        "work"
+      ]
+    },
+    {
+      "id": "03-our-work-and-programs::alumni-and-independence",
+      "file": "03-our-work-and-programs.md",
+      "title": "Our Work and Programmes",
+      "heading": "Alumni and independence",
+      "text": "When our young people grow up we continue to stand behind them — helping with higher education, vocational training and first jobs so they can build independent lives.",
+      "tags": [
+        "programs",
+        "education",
+        "shelter",
+        "care",
+        "work"
+      ]
+    },
+    {
+      "id": "04-donations-and-volunteering::how-to-donate",
+      "file": "04-donations-and-volunteering.md",
+      "title": "Donations and Volunteering",
+      "heading": "How to donate",
+      "text": "Donations help us provide food, shelter, education, healthcare and care for the children. The website's Donate section shows the donation options currently available.",
+      "tags": [
+        "donate",
+        "donation",
+        "volunteer",
+        "support",
+        "giving"
+      ]
+    },
+    {
+      "id": "04-donations-and-volunteering::what-your-donation-supports",
+      "file": "04-donations-and-volunteering.md",
+      "title": "Donations and Volunteering",
+      "heading": "What your donation supports",
+      "text": "- Nutritious food for the children - School fees, books and uniforms - Medical care and hygiene supplies - Maintenance of the children's home - Special needs and celebrations that make every child feel valued",
+      "tags": [
+        "donate",
+        "donation",
+        "volunteer",
+        "support",
+        "giving"
+      ]
+    },
+    {
+      "id": "04-donations-and-volunteering::sponsorship",
+      "file": "04-donations-and-volunteering.md",
+      "title": "Donations and Volunteering",
+      "heading": "Sponsorship",
+      "text": "Supporters can also enquire about sponsoring a child's education or monthly care. Contact the foundation through the website's contact details for current sponsorship options.",
+      "tags": [
+        "donate",
+        "donation",
+        "volunteer",
+        "support",
+        "giving"
+      ]
+    },
+    {
+      "id": "04-donations-and-volunteering::volunteering",
+      "file": "04-donations-and-volunteering.md",
+      "title": "Donations and Volunteering",
+      "heading": "Volunteering",
+      "text": "We welcome volunteers who can donate time, skills or resources. Teachers, tutors, mentors, doctors and skilled professionals have all contributed over the years. Please reach out through the contact details on the website.",
+      "tags": [
+        "donate",
+        "donation",
+        "volunteer",
+        "support",
+        "giving"
+      ]
+    },
+    {
+      "id": "04-donations-and-volunteering::receipts-and-transparency",
+      "file": "04-donations-and-volunteering.md",
+      "title": "Donations and Volunteering",
+      "heading": "Receipts and transparency",
+      "text": "Donors can request receipts / certificates and view the foundation's certificates and compliance documents in the Certificates section of the website.",
+      "tags": [
+        "donate",
+        "donation",
+        "volunteer",
+        "support",
+        "giving"
+      ]
+    },
+    {
+      "id": "05-legal-certificates-and-compliance::registration-and-legal-status",
+      "file": "05-legal-certificates-and-compliance.md",
+      "title": "Legal, Certificates and Compliance",
+      "heading": "Registration and legal status",
+      "text": "Service to Humanity Foundation is a registered non-profit organisation operating in India.",
+      "tags": [
+        "legal",
+        "certificate",
+        "registration",
+        "compliance",
+        "tax",
+        "80g",
+        "10ab"
+      ]
+    },
+    {
+      "id": "05-legal-certificates-and-compliance::certificates-available-on-the-website",
+      "file": "05-legal-certificates-and-compliance.md",
+      "title": "Legal, Certificates and Compliance",
+      "heading": "Certificates available on the website",
+      "text": "The Certificates section of the website publishes official documents, including: - CSR (Corporate Social Responsibility) documentation - Form 10AB approval order documents",
+      "tags": [
+        "legal",
+        "certificate",
+        "registration",
+        "compliance",
+        "tax",
+        "80g",
+        "10ab"
+      ]
+    },
+    {
+      "id": "05-legal-certificates-and-compliance::why-we-publish-certificates",
+      "file": "05-legal-certificates-and-compliance.md",
+      "title": "Legal, Certificates and Compliance",
+      "heading": "Why we publish certificates",
+      "text": "Publishing our registration and approval documents reflects our commitment to transparency, good governance and public accountability.",
+      "tags": [
+        "legal",
+        "certificate",
+        "registration",
+        "compliance",
+        "tax",
+        "80g",
+        "10ab"
+      ]
+    },
+    {
+      "id": "06-team-and-governance::our-founder",
+      "file": "06-team-and-governance.md",
+      "title": "Team and Governance",
+      "heading": "Our founder",
+      "text": "Service to Humanity Foundation was established on January 30, 1981 by Dr. Sashikanta Acharya (PhD, TU Berlin). His vision and picture are featured in the website's Our Founder section.",
+      "tags": [
+        "team",
+        "founder",
+        "trustees",
+        "governance",
+        "people",
+        "sashikanta",
+        "acharya"
+      ]
+    },
+    {
+      "id": "06-team-and-governance::our-homes",
+      "file": "06-team-and-governance.md",
+      "title": "Team and Governance",
+      "heading": "Our homes",
+      "text": "The foundation runs 6 orphanages / children's homes in Odisha, currently caring for more than 50 orphaned and deprived children.",
+      "tags": [
+        "team",
+        "founder",
+        "trustees",
+        "governance",
+        "people",
+        "sashikanta",
+        "acharya"
+      ]
+    },
+    {
+      "id": "06-team-and-governance::our-team",
+      "file": "06-team-and-governance.md",
+      "title": "Team and Governance",
+      "heading": "Our team",
+      "text": "The foundation is run by a dedicated team of trustees, staff members and caregivers who put the children's well-being first.",
+      "tags": [
+        "team",
+        "founder",
+        "trustees",
+        "governance",
+        "people",
+        "sashikanta",
+        "acharya"
+      ]
+    },
+    {
+      "id": "06-team-and-governance::our-people-on-the-website",
+      "file": "06-team-and-governance.md",
+      "title": "Team and Governance",
+      "heading": "Our people on the website",
+      "text": "The website's Our Team section introduces the people who lead and support the work of the foundation.",
+      "tags": [
+        "team",
+        "founder",
+        "trustees",
+        "governance",
+        "people",
+        "sashikanta",
+        "acharya"
+      ]
+    },
+    {
+      "id": "06-team-and-governance::governance-values",
+      "file": "06-team-and-governance.md",
+      "title": "Team and Governance",
+      "heading": "Governance values",
+      "text": "We are committed to honesty, transparency, careful use of donations and full accountability to the children, families and supporters we serve.",
+      "tags": [
+        "team",
+        "founder",
+        "trustees",
+        "governance",
+        "people",
+        "sashikanta",
+        "acharya"
+      ]
+    },
+    {
+      "id": "07-contact-and-faq::can-i-visit-the-foundation",
+      "file": "07-contact-and-faq.md",
+      "title": "Contact and Frequently Asked Questions",
+      "heading": "Can I visit the foundation?",
+      "text": "We are generally happy to share our work, but visits must be arranged in advance. Contact us through the details on the website to request a visit.",
+      "tags": [
+        "contact",
+        "faq",
+        "questions",
+        "outreach"
+      ]
+    },
+    {
+      "id": "07-contact-and-faq::can-i-sponsor-a-child",
+      "file": "07-contact-and-faq.md",
+      "title": "Contact and Frequently Asked Questions",
+      "heading": "Can I sponsor a child?",
+      "text": "Yes — please contact us through the website to ask about current sponsorship opportunities.",
+      "tags": [
+        "contact",
+        "faq",
+        "questions",
+        "outreach"
+      ]
+    },
+    {
+      "id": "07-contact-and-faq::what-kind-of-help-do-you-need-most",
+      "file": "07-contact-and-faq.md",
+      "title": "Contact and Frequently Asked Questions",
+      "heading": "What kind of help do you need most?",
+      "text": "Recurring donations, school-supply sponsorships and skilled volunteers (teachers, tutors, mentors, doctors) are always valued.",
+      "tags": [
+        "contact",
+        "faq",
+        "questions",
+        "outreach"
+      ]
+    },
+    {
+      "id": "07-contact-and-faq::how-can-someone-contact-the-foundation",
+      "file": "07-contact-and-faq.md",
+      "title": "Contact and Frequently Asked Questions",
+      "heading": "How can someone contact the foundation?",
+      "text": "Please use the contact information and Donate section on the website. The website is the best public channel to reach the team.",
+      "tags": [
+        "contact",
+        "faq",
+        "questions",
+        "outreach"
+      ]
+    }
+  ]
+}

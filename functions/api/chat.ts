@@ -1,17 +1,18 @@
-/* Cloudflare Pages Function — AI chat proxy (Workers AI
+/* Cloudflare Pages Function — AI chat proxy (Workers AI)
  * ----------------------------------------------------------------------------
  * Deployed automatically alongside the static export by Cloudflare Pages
- * (no changes needed to the static site;the `functions/` directory is only
- * used at deploy time).receives the question + retrieved knowledge-base sources
- * (RAG retrieval runs in the visitor's browser)and asks the Workers AI binding
- * to phrase a conversational answer — strictly from the provided sources..
+ * (no changes needed to the static site; the `functions/` directory is only
+ * used at deploy time). It receives the question + retrieved knowledge-base
+ * sources (RAG retrieval runs in the visitor's browser) and asks the Workers
+ * AI binding to phrase a conversational answer — strictly from the provided
+ * sources.
  *
- * Free tier: open-source models (Llama, Qwen, etc.)hosted by Cloudflare.
-
- * Setup (one-time,in the Cloudflare dashboard):
+ * Free tier: open-source models (Llama, Qwen, ...) hosted by Cloudflare.
+ *
+ * Setup (one-time, in the Cloudflare dashboard):
  *   Pages → (your project) → Settings → Functions → Bindings → + Add
  *   "Workers AI" binding named: `AI`. Optional: set an `AI_MODEL`
- *   environment variable to override the default model..
+ *   environment variable to override the default model.
  * ------------------------------------------------------------------------- */
 
 interface ChatSource {
@@ -40,7 +41,7 @@ interface Env {
 const DEFAULT_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
 
 const SYSTEM_PROMPT = `You are "Humanity Assistant", the friendly AI helper for the Service to Humanity Foundation website.
-Answer ONLY using the knowledge-base excerpts provided. Keep answers to 2-4 sentences. If the excerpts don't contain the answer, say soand suggest contacting the foundation via the website's Donate section. Never invent facts. Do not mention "knowledge base" or "excerpts" in your reply.`
+Answer ONLY using the knowledge-base excerpts provided. Keep answers to 2-4 sentences. If the excerpts don't contain the answer, say so and suggest contacting the foundation via the website's Donate section. Never invent facts. Do not mention "knowledge base" or "excerpts" in your reply.`
 
 const MAX_QUESTION = 1_000
 const MAX_SOURCES = 4
@@ -104,20 +105,52 @@ export async function onRequestPost(context: {
     .map((s, i) => `[${i + 1}] ${s.title} — ${s.heading}\n${s.excerpt}`)
     .join("\n\n")
 
+  const chatMessages = [
+    { role: "system", content: SYSTEM_PROMPT },
+    {
+      role: "user",
+      content: `KNOWLEDGE BASE CONTEXT:\n\n${contextText}\n\nVisitor's question:\n${question}`,
+    },
+  ]
+
+  const commonOptions = {
+    temperature: 0.2,
+    max_tokens: 400,
+  }
+
   try {
-    const result = await ai.run(model, {
-      messages: [
-        { role: "system", content: SYSTEM_PROMPT },
-        {
-          role: "user",
-          content: `KNOWLEDGE BASE CONTEXT:\n\n${contextText}\n\nVisitor's question:\n${question}`,
-        },
-      ],
-      temperature: 0.2,
-      max_tokens: 400,
-    })
-    const answer =
-      typeof result?.response === "string" ? result.response.trim() : ""
+    let answer = ""
+
+    // 1) Chat-completions style (Workers AI models that accept `messages`).
+    try {
+      const result = await ai.run(model, { ...commonOptions, messages: chatMessages })
+      if (typeof result?.response === "string" && result.response.trim()) {
+        answer = result.response.trim()
+      }
+    } catch {
+      /* fall through to prompt style below */
+    }
+
+    // 2) Text-generation style (the `prompt` shape Cloudflare's docs/example
+    //    use for Llama — covers models that don't accept `messages`).
+    if (!answer) {
+      try {
+        const promptText = chatMessages
+          .map((m) => `${m.role.toUpperCase()}:\n${m.content}`)
+          .join("\n\n")
+        const result = await ai.run(model, { ...commonOptions, prompt: promptText })
+        if (typeof result?.response === "string" && result.response.trim()) {
+          answer = result.response.trim()
+        }
+      } catch (err) {
+        const message = err instanceof Error ? err.message : String(err)
+        return Response.json(
+          { error: "workers_ai_error", message },
+          { status: 502 }
+        )
+      }
+    }
+
     if (!answer) {
       return Response.json({ error: "empty_answer" }, { status: 502 })
     }
